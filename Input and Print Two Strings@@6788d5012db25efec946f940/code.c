@@ -10,8 +10,8 @@ int main() {
     scanf("%99s", str2);
 
     printf("\nYou entered:\n");
-    printf("First String: %s\n", str1);
-    printf("Second String: %s\n", str2);
+    printf("%s\n", str1);
+    printf(" %s\n", str2);
 
     return 0;
 }
