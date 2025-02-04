@@ -9,7 +9,7 @@ int main() {
     printf("Enter the second string: ");
     scanf("%99s", str2);
 
-    printf("\nYou entered:\n");
+    printf("\nYou entered:%s\n", str1\n);
     printf("%s\n", str1);
     printf(" %s\n", str2);
 
