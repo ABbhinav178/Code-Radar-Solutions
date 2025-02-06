@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int num;
 
-    printf("Enter an integer: ");
-    if (scanf("%d", &a) != 1) {
-        printf("Invalid input. Please enter an integer.\n");
-        return 1;
-    }
+    // Taking input
+    scanf("%d", &num);
 
-    printf("Hexadecimal: %x\nOctal: %o\n", a, a);
+    // Printing hexadecimal and octal values
+    printf("Hexadecimal: %X\n", num);
+    printf("Octal: %o\n", num);
 
     return 0;
 }
