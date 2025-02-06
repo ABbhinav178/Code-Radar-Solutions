@@ -4,10 +4,10 @@ int main(){
 
     scanf("%d",&num);
     switch(num%2==0){
-        case 0 :
+        case 1:
         printf("Even");
         break;
-        case 1:
+        case 0:
         printf("Odd");
         break;
     }
