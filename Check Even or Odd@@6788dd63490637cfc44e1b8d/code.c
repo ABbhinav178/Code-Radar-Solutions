@@ -5,10 +5,10 @@ int main(){
     scanf("%d",&num);
     switch(num%2){
         case 0 :
-        printf("even");
+        printf("Even");
         break;
         case 1:
-        printf("odd");
+        printf("Odd");
         break;
     }
 }
