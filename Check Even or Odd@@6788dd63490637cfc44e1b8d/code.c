@@ -3,7 +3,7 @@ int main(){
     int num;
 
     scanf("%d",&num);
-    switch(num%2){
+    switch(num%2==0){
         case 0 :
         printf("Even");
         break;
