@@ -7,20 +7,26 @@ int main() {
 
     scanf("%c", &ch);
 
-    // Check if it's an alphabet character
-    if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
-        // Switch to check vowels
-        switch (ch) {
-            case 'A': case 'E': case 'I': case 'O': case 'U':
-            case 'a': case 'e': case 'i': case 'o': case 'u':
-                printf("Vowel\n");
-                break;
-            default:
+    // Check character type using switch
+    switch (ch) {
+        // Check for vowels
+        case 'A': case 'E': case 'I': case 'O': case 'U':
+        case 'a': case 'e': case 'i': case 'o': case 'u':
+            printf("Vowel\n");
+            break;
+
+        // Check consonants
+        default:
+            if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
                 printf("Consonant\n");
-                break;
-        }
-    } else {
-        printf("Special Character\n");
+            } 
+            else if (ch >= '0' && ch <= '9') {
+                printf("Digit\n");
+            } 
+            else {
+                printf("Special Character\n");
+            }
+            break;
     }
 
     return 0;
