@@ -4,7 +4,7 @@ int main() {
     int age;
 
     // Input the user's age
-    printf("Enter your age: ");
+
     scanf("%d", &age);
 
     // Check eligibility
