@@ -14,13 +14,13 @@ int main() {
 
         // Determine the type of triangle
         if (side1 == side2 && side2 == side3) {
-            printf("Equilateral Triangle\n");
+            printf("Equilateral \n");
         } 
         else if (side1 == side2 || side1 == side3 || side2 == side3) {
-            printf("Isosceles Triangle\n");
+            printf("Isosceles \n");
         } 
         else {
-            printf("Scalene Triangle\n");
+            printf("Scalene \n");
         }
     } 
     else {
