@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int num, divisor;
+    int num;
     scanf("%d", &num);
-    scanf("%d", &divisor);
 
-    if (num % divisor == 0) {
-        printf("Divisible\n");
+    if (num % 5 == 0&& num%11==0)  {
+        printf("Divisible");
     } 
     else {
-        printf("Not Divisible\n");
+        printf("Not Divisible");
     }
 
     return 0;
