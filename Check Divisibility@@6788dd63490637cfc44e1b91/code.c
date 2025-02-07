@@ -15,7 +15,7 @@ int main() {
         printf("Divisible.\n");
     } 
     else {
-        printf("%d is not divisible by %d.\n", num, divisor);
+        printf(" Not Divisible %d.\n", num, divisor);
     }
 
     return 0;
