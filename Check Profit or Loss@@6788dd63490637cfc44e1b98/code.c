@@ -7,7 +7,7 @@ int main() {
 
     scanf("%f", &cost_price);
 
-    printf("Enter the Selling Price: ");
+
     scanf("%f", &selling_price);
 
     // Check for profit, loss, or no profit/no loss
