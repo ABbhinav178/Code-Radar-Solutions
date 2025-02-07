@@ -5,7 +5,7 @@ int main() {
     char grade;
 
     // Input marks
-    printf("Enter marks (0 to 100): ");
+
     scanf("%d", &marks);
 
     // Determine grade using if-else
@@ -27,7 +27,7 @@ int main() {
 
     // Output grade
     if (marks >= 0 && marks <= 100) {
-        printf("Grade: %c\n", grade);
+        printf(" %c\n", grade);
     } else {
         printf("Invalid marks entered.\n");
     }
