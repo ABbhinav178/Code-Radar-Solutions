@@ -14,7 +14,7 @@ int main() {
     if (divisor == 0) {
         printf("Divisible\n");
     } else if (num % divisor == 0) {
-        printf("Divisible%d.\n", num, divisor);
+        printf("Not Divisible%d.\n", num, divisor);
     } else {
         printf("Not Divisible%d.\n", num, divisor);
     }
