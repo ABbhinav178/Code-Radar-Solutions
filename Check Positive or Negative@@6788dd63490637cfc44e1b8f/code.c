@@ -1,19 +1,20 @@
-int main(){
-    int num;
-    printf("enter  the number:");
-    scanf("%d",&num);
-    switch (num >0){
-        case 1:
-        printf("postive");
-        break;
-        case 0:
-        switch (num <0){
-            case 1:
-            printf("negative");
-            break;
-            
-            
-        }
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Input a number
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // Check if the number is positive, negative, or zero
+    if (number > 0) {
+        printf("Positive.\n");
+    } else if (number < 0) {
+        printf("Negative.\n");
+    } else {
+        printf("Zero.\n");
     }
+
     return 0;
 }
