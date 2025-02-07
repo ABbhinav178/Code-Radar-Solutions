@@ -20,7 +20,7 @@ int main() {
                 break;
         }
     } else {
-        printf("Not an alphabet\n");
+        printf("Special Character\n");
     }
 
     return 0;
