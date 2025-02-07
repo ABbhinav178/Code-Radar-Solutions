@@ -9,10 +9,10 @@ int main() {
 
     // Check if num1 is a multiple of num2
     if (num2 != 0 && num1 % num2 == 0) {
-        printf("YES\n");
+        printf("Yes\n");
     } 
     else {
-        printf("NO\n");
+        printf("No\n");
     }
 
     return 0;
