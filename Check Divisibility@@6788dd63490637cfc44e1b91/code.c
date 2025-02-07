@@ -11,10 +11,9 @@ int main() {
     scanf("%d", &divisor);
 
     // Check divisibility
-    if (divisor == 0) {
-        printf("Division by zero is not allowed.\n");
-    } else if (num % divisor == 0) {
-        printf("%d is divisible by %d.\n", num, divisor);
+    if (num % divisor == 0) {
+        printf("Divisible.\n");
+    } 
     } else {
         printf("%d is not divisible by %d.\n", num, divisor);
     }
