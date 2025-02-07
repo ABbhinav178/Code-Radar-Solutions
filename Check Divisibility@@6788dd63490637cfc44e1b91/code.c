@@ -12,7 +12,7 @@ int main() {
 
     // Check divisibility
     if (divisor == 0) {
-        printf("Division by zero is not allowed.\n");
+        printf("Divisible\n");
     } else if (num % divisor == 0) {
         printf("Divisible%d.\n", num, divisor);
     } else {
