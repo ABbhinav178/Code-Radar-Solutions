@@ -14,7 +14,7 @@ int main() {
         printf("Valid\n");
     } 
     else {
-        printf("Not Valid\n");
+        printf("Invalid\n");
     }
 
     return 0;
