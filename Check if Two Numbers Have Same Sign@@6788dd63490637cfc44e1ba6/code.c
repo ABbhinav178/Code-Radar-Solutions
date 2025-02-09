@@ -9,9 +9,9 @@ int main() {
 
     // Check if the numbers have the same sign
     if ((num1 > 0 && num2 > 0) || (num1 < 0 && num2 < 0)) {
-        printf("Same sign\n");
+        printf("Same Sign\n");
     } else {
-        printf("Different signs\n");
+        printf("Different Signs\n");
     }
 
     return 0;
