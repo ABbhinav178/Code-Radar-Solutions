@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &age);
     
-    citizen): ");
+
     scanf("%d", &citizenStatus);
 
     // Check voting eligibility
