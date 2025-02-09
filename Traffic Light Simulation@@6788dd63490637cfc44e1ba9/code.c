@@ -22,7 +22,7 @@ int main() {
             printf("Slow Down\n");
             break;
         default:
-            printf("Invalid input! Please enter R, G, or Y.\n");
+            printf("Invalid input\n");
     }
 
     return 0;
