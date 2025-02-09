@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &age);
     
-    printf("Enter your citizenship status (1 for citizen, 0 for non-citizen): ");
+    citizen): ");
     scanf("%d", &citizenStatus);
 
     // Check voting eligibility
