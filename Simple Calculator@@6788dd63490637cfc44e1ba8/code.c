@@ -4,8 +4,8 @@ int main() {
     double num1, num2;
     char operator;
 
-    printf("Enter an operation (e.g., 5 + 3): ");
-    scanf("%lf %c %lf", &num1, &operator, &num2);
+
+    scanf("%lf %c %lf", &num1, &num2, &operator);
 
     switch (operator) {
         case '+':
