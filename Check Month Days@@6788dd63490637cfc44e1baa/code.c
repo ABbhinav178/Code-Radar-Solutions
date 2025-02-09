@@ -19,12 +19,9 @@ int main() {
             printf("30\n");
             break;
         case 2:
-            // Check for leap year
-            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-                printf("29\n");
-            } else {
+         
                 printf("28\n");
-            }
+            
             break;
         default:
             printf("Invalid month number!\n");
