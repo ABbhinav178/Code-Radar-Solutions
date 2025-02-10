@@ -4,9 +4,9 @@ int main() {
     char operator;
     double firstNumber, secondNumber;
     
-    printf("Enter an operator (+, -, *, /): ");
+
     scanf("%c", &operator);
-    printf("Enter two operands: ");
+
     scanf("%lf %lf", &firstNumber, &secondNumber);
 
     switch (operator) {
@@ -23,7 +23,7 @@ int main() {
             if (secondNumber != 0.0) {
                 printf("%.2lf / %.2lf = %.2lf\n", firstNumber, secondNumber, firstNumber / secondNumber);
             } else {
-                printf("Error! Division by zero.\n");
+                printf("Error\n");
             }
             break;
         default:
