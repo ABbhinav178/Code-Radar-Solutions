@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j, k;
+    int n, i, j, num;
 
 
     scanf("%d", &n);
@@ -11,9 +11,11 @@ int main() {
         for (j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        // Print numbers
-        for (k = 1; k <= (2 * i - 1); k++) {
-            printf("%d", i);
+        // Print increasing numbers
+        num = 1;
+        for (j = 1; j <= (2 * i - 1); j++) {
+            printf("%d", num);
+            num++;
         }
         printf("\n");
     }
