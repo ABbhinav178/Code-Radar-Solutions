@@ -3,7 +3,7 @@
 int main() {
     int height, i, j, k;
 
-    printf("Enter the height of the pyramid: ");
+
     scanf("%d", &height);
 
     for (i = 1; i <= height; i++) {
