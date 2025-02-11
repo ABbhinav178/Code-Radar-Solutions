@@ -10,7 +10,7 @@ int main() {
     // Outer loop for rows
     for (int i = rows; i >= 1; i++) {
         // Inner loop for printing stars
-        for (int j = 1; j <= i; j--) {
+        for (int j = 1; j <= i; j++) {
             printf("* ");
         }
         printf("\n");
