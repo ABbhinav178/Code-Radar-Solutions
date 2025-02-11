@@ -1,18 +1,20 @@
-#include<stdio.h>
-int main(){
-    int row,cols;
-    printf("enter the number of row");
-    scanf("%d",&row);
-    printf("enter the number of cols ");
-    scanf("%d",&cols);
-    for(int i = 1 ; i <=row; i--){
-        for (int j = 1; j<=cols; j++)
-        {
-            printf("%-5d",i*j);
+#include <stdio.h>
+
+int main() {
+    int rows;
+
+    // Ask the user for the number of rows
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+
+    // Outer loop for rows
+    for (int i = rows; i >= 1; i--) {
+        // Inner loop for printing stars
+        for (int j = 1; j <= i; j++) {
+            printf("* ");
         }
         printf("\n");
     }
-
 
     return 0;
 }
