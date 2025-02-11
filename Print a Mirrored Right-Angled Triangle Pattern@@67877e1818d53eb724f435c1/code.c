@@ -8,11 +8,11 @@ int main() {
     for (i = 1; i <= height; i++) {
         // Print spaces
         for (j = 1; j <= height - i; j++) {
-            printf("  ");
+            printf(" ");
         }
         // Print stars
         for (j = 1; j <= i; j++) {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
