@@ -10,7 +10,7 @@ int main() {
         for (j = 1; j <= size; j++) {
             // Print '*' only on the border positions
             if (i == 1 || i == size || j == 1 || j == size) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  ");
             }
