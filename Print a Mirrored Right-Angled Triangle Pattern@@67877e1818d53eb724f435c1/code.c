@@ -1,21 +1,23 @@
 #include <stdio.h>
 
-int main() {
-    int height, i, j;
-
-    scanf("%d", &height);
-
-    for (i = 1; i <= height; i++) {
+void mirrored_triangle(int n) {
+    for (int i = 1; i <= n; i++) {
         // Print spaces
-        for (j = 1; j <= height - i; j++) {
+        for (int j = 0; j < n - i; j++) {
             printf(" ");
         }
         // Print stars
-        for (j = 1; j <= i; j++) {
-            printf("* ");
+        for (int k = 0; k < i; k++) {
+            printf("*");
         }
         printf("\n");
     }
+}
 
+int main() {
+    int n;
+    
+    scanf("%d", &n);
+    mirrored_triangle(n);
     return 0;
 }
