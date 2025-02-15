@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdbool.h>  // Include for bool, true, false
+
 
 int main() {
     int a,b;
