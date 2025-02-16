@@ -3,12 +3,10 @@ int main(){
     int num;
 
     scanf("%d",&num);
-    switch(num%2==0){
-        case 1:
+    if(num%2==0){
         printf("Even");
-        break;
-        case 0:
+    }
+    else{
         printf("Odd");
-        break;
     }
 }
