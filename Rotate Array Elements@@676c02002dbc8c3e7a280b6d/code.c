@@ -24,9 +24,9 @@ int main() {
 
     rotateRight(arr, n, k);
 
-    printf("Rotated Array: ");
+
     for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
+        printf("%d\n ", arr[i]);
 
     return 0;
 }
