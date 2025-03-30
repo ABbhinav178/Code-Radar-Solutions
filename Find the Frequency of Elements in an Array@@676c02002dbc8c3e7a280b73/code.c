@@ -30,11 +30,10 @@ int main() {
     }
 
     // Display frequencies
-    printf("\nElement | Frequency\n");
-    printf("-------------------\n");
+
     for (i = 0; i < n; i++) {
         if (freq[i] != 0) {
-            printf("%d       | %d\n", arr[i], freq[i]);
+            printf("%d %d\n", arr[i], freq[i]);
         }
     }
 
