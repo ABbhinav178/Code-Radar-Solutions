@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int arr[],fre[100];
+    int arr[],freq[100];
     int n ,i,j,count;
-    csanf("%d",&n);
+    sanf("%d",&n);
     arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
