@@ -2,7 +2,7 @@
 int main(){
     int arr[],freq[100];
     int n ,i,j,count;
-    sanf("%d",&n);
+    scanf("%d",&n);
     arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
