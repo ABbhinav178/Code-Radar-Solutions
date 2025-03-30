@@ -5,11 +5,11 @@ int main() {
     int n, i, j, count;
 
     // Input array size
-    printf("Enter the number of elements: ");
+
     scanf("%d", &n);
 
     // Input array elements
-    printf("Enter the elements of the array: ");
+
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
         freq[i] = -1;  // Initialize frequency array
