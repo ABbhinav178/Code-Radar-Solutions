@@ -1,32 +1,22 @@
-#include <stdio.h>
-int isSorted(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        if (arr[i] > arr[i + 1]) {
-            return 0; // Not sorted
-        }
+#include<stdio.h>
+int issorted(int arr[],int n){
+for(i=0;i<n-1;i++){
+    if(arr[i]>arr[i+1]){
+        return 0; //not sorted
     }
-    return 1; // Sorted
 }
-
-int main() {
-    int n;
-
-    // Taking input for array size
-    scanf("%d", &n);
-
+return 1;
+}
+int main(){
+    scamf("%d",&n);
     int arr[n];
+    for(int ii=0;i<n;i++){
+        scanf("%d",&arr[i]);
 
-    // Taking input for array elemen
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
     }
-
-    // Checking if array is sorted
-    if (isSorted(arr, n)) {
-        printf("Sorted\n");
-    } else {
-        printf("Not Sorted\n");
+    if(issorted(arr,n)){
+        printf("Sorted");
+    }else{
+        printf("Not Sorted");
     }
-
-    return 0;
 }
