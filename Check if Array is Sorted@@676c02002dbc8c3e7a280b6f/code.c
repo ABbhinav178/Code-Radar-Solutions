@@ -9,9 +9,10 @@ int issorted(int arr[],int n){
 return 1;
 }
 int main(){
+    int n;
     scamf("%d",&n);
     int arr[n];
-    for(int ii=0;i<n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
 
     }
