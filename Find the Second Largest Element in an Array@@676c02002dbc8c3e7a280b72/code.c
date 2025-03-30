@@ -33,7 +33,7 @@ int main() {
     }
 
 
-        printf(" %d\n", sec_large);
+        printf("%d\n", sec_large);
     
 
     return 0;
