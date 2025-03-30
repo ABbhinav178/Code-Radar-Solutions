@@ -32,12 +32,9 @@ int main() {
         }
     }
 
-    // If no second largest is found
-    if (sec_large == INT_MIN) {
-        printf("No second largest element found!\n");
-    } else {
+
         printf(" %d\n", sec_large);
-    }
+    
 
     return 0;
 }
