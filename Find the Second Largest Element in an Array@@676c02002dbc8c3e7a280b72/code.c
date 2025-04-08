@@ -1,21 +1,40 @@
 #include <stdio.h>
 #include <limits.h>
 
-int findSecondLargest(int arr[], int size) {
-    if (size < 2) {
-        return INT_MIN; // Not enough elements
+int main() {
+    int n, sec_large, large;
+
+    // Input the number of elements
+
+    scanf("%d", &n);
+
+    if (n < 2) {  // Ensure at least two elements exist
+
+        return 1;
     }
 
-    int first = INT_MIN, second = INT_MIN;
+    int arr[n];
 
-    for (int i = 0; i < size; i++) {
-        if (arr[i] > first) {
-            second = first;
-            first = arr[i];
-        } else if (arr[i] > second && arr[i] != first) {
-            second = arr[i];
+    // Initialize `large` and `sec_large` to the smallest possible value
+    large = sec_large = INT_MIN;
+
+    // Input the elements and find the largest and second largest
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+
+        // Update largest and second largest correctly
+        if (arr[i] > large) {
+            sec_large = large;  // Move largest to second largest
+            large = arr[i];      // Update largest
+        } else if (arr[i] > sec_large && arr[i] < large) {
+            sec_large = arr[i];  // Update second largest
         }
     }
 
-    return (second == INT_MIN) ? -1 : second; // Return -1 if no second largest found
+
+        printf("%d\n", sec_large);
+    
+
+    return 0;
 }
